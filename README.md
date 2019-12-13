@@ -1,4 +1,4 @@
-# Helius
+# Helius Font
 
 Helius is a Hebrew and Latin typeface family.
 
