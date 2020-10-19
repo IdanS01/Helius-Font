@@ -4,9 +4,7 @@ The build process described below uses UFO input sources, which can be exported 
 
 The fonts are built using fontmake and post-processed with gftools scripts. The tools are all Python based. 
 
-First, is necessary to create a python3 virtual environment in the folder and then install the tools into it. The process would be as follows.
-
-Install the tools. This would only be needed once
+First, is necessary to create a python3 virtual environment in the folder and then install the tools into it. This would only be needed once.
 
 ```
 # Create a new virtualenv
@@ -18,10 +16,8 @@ pip install -r requirements.txt
 ```
 
 
-**Export the needed UFO files from Fontlab to directory Sources/UFO**
-It would be needed after any modification done in the editable source files in Fontlab, before generating the new font files.
+Export the UFO files from Fontlab to the directory Sources/UFO. 
 
-**Generate the font files**
 From the Sources folder run the build script in the terminal:
 
 ```
