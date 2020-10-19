@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tsadi" format="2">
+  <advance width="587"/>
+  <unicode hex="05E6"/>
+  <outline>
+    <contour>
+      <point x="440" y="213" type="curve"/>
+      <point x="490" y="276"/>
+      <point x="551" y="380"/>
+      <point x="565" y="518" type="curve"/>
+      <point x="404" y="518" type="line"/>
+      <point x="394" y="446"/>
+      <point x="364" y="377"/>
+      <point x="320" y="319" type="curve"/>
+      <point x="264" y="379"/>
+      <point x="219" y="446"/>
+      <point x="186" y="518" type="curve"/>
+      <point x="13" y="518" type="line"/>
+      <point x="63" y="381"/>
+      <point x="147" y="259"/>
+      <point x="253" y="160" type="curve"/>
+      <point x="41" y="160" type="line"/>
+      <point x="41" y="0" type="line"/>
+      <point x="545" y="0" type="line"/>
+      <point x="545" y="149" type="line"/>
+      <point x="537" y="153" type="line" smooth="yes"/>
+      <point x="516" y="163"/>
+      <point x="469" y="192"/>
+    </contour>
+  </outline>
+</glyph>

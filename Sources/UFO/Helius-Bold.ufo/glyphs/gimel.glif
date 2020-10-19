@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gimel" format="2">
+  <advance width="403"/>
+  <unicode hex="05D2"/>
+  <outline>
+    <contour>
+      <point x="235" y="86" type="curve"/>
+      <point x="253" y="0" type="line"/>
+      <point x="365" y="0" type="line"/>
+      <point x="257" y="518" type="line"/>
+      <point x="72" y="518" type="line"/>
+      <point x="72" y="408" type="line"/>
+      <point x="167" y="408" type="line"/>
+      <point x="200" y="251" type="line"/>
+      <point x="196" y="172"/>
+      <point x="107" y="110"/>
+      <point x="31" y="110" type="curve"/>
+      <point x="31" y="0" type="line"/>
+      <point x="107" y="0"/>
+      <point x="182" y="33"/>
+    </contour>
+  </outline>
+</glyph>

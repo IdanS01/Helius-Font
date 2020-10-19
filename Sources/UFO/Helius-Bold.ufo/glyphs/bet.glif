@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bet" format="2">
+  <advance width="489"/>
+  <unicode hex="05D1"/>
+  <outline>
+    <contour>
+      <point x="404" y="110" type="line"/>
+      <point x="404" y="293" type="line" smooth="yes"/>
+      <point x="404" y="417"/>
+      <point x="303" y="518"/>
+      <point x="179" y="518" type="curve" smooth="yes"/>
+      <point x="31" y="518" type="line"/>
+      <point x="31" y="408" type="line"/>
+      <point x="179" y="408" type="line" smooth="yes"/>
+      <point x="243" y="408"/>
+      <point x="294" y="356"/>
+      <point x="294" y="293" type="curve" smooth="yes"/>
+      <point x="294" y="110" type="line"/>
+      <point x="31" y="110" type="line"/>
+      <point x="31" y="0" type="line"/>
+      <point x="458" y="0" type="line"/>
+      <point x="458" y="110" type="line"/>
+    </contour>
+  </outline>
+</glyph>

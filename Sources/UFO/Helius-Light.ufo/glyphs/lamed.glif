@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamed" format="2">
+  <advance width="446"/>
+  <unicode hex="05DC"/>
+  <outline>
+    <contour>
+      <point x="192" y="0" type="line"/>
+      <point x="222" y="0" type="line"/>
+      <point x="421" y="518" type="line"/>
+      <point x="53" y="518" type="line"/>
+      <point x="53" y="643" type="line"/>
+      <point x="25" y="643" type="line"/>
+      <point x="25" y="490" type="line"/>
+      <point x="380" y="490" type="line"/>
+    </contour>
+  </outline>
+</glyph>
