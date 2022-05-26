@@ -85,8 +85,10 @@ alignmentZones = (
 );
 ascender = 782;
 capHeight = 680;
+custom = Extra;
 descender = -218;
 id = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
+name = ExtraLight;
 weight = Light;
 weightValue = 200;
 xHeight = 518;
@@ -99,10 +101,9 @@ alignmentZones = (
 );
 ascender = 782;
 capHeight = 680;
-custom = Black;
 descender = -218;
-iconName = Bold;
 id = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
+weight = Bold;
 weightValue = 700;
 xHeight = 518;
 }
@@ -21055,7 +21056,7 @@ interpolationWeight = 200;
 instanceInterpolations = {
 "0A901A10-6B10-40AA-AC10-6ECA400C9626" = 1;
 };
-name = Light;
+name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
@@ -21081,7 +21082,7 @@ instanceInterpolations = {
 "0A901A10-6B10-40AA-AC10-6ECA400C9626" = 0.2;
 "88F21F75-214F-41EE-AE9C-B4AA79D6697C" = 0.8;
 };
-name = Bold;
+name = SemiBold;
 weightClass = SemiBold;
 },
 {
@@ -21097,7 +21098,8 @@ interpolationWeight = 700;
 instanceInterpolations = {
 "88F21F75-214F-41EE-AE9C-B4AA79D6697C" = 1;
 };
-name = Black;
+isBold = 1;
+name = Bold;
 weightClass = Bold;
 }
 );
