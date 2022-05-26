@@ -1,5 +1,5 @@
 {
-.appVersion = "3108";
+.appVersion = "3129";
 .formatVersion = 3;
 axes = (
 {
@@ -12,10 +12,24 @@ customParameters = (
 name = fsType;
 value = (
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+CR,
+.null,
+space,
+nbspace
+);
 }
 );
 date = "2021-10-06 15:06:18 +0000";
-familyName = Helium;
+familyName = Helius;
 featurePrefixes = (
 {
 automatic = 1;
@@ -135,6 +149,53 @@ name = Black;
 }
 );
 glyphs = (
+{
+glyphname = CR;
+layers = (
+{
+layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
+width = 600;
+},
+{
+layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
+width = 600;
+}
+);
+unicode = 13;
+},
+{
+glyphname = space;
+lastChange = "2021-10-06 21:26:08 +0000";
+layers = (
+{
+layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
+width = 320;
+},
+{
+layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
+width = 300;
+}
+);
+note = space;
+unicode = 32;
+},
+{
+glyphname = nbspace;
+lastChange = "2021-11-02 11:47:16 +0000";
+layers = (
+{
+layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
+width = 320;
+},
+{
+layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
+width = 300;
+}
+);
+metricLeft = space;
+metricRight = space;
+unicode = 160;
+},
 {
 glyphname = A;
 lastChange = "2021-10-11 16:53:24 +0000";
@@ -13725,6 +13786,184 @@ note = nine;
 unicode = 57;
 },
 {
+glyphname = fraction;
+lastChange = "2021-12-27 21:21:55 +0000";
+layers = (
+{
+layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
+shapes = (
+{
+closed = 1;
+nodes = (
+(31,0,l),
+(396,680,l),
+(366,680,l),
+(0,0,l)
+);
+}
+);
+width = 396;
+},
+{
+layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(177,0,l),
+(542,680,l),
+(366,680,l),
+(0,0,l)
+);
+}
+);
+width = 542;
+}
+);
+unicode = 8260;
+},
+{
+glyphname = onehalf;
+lastChange = "2021-12-28 16:09:44 +0000";
+layers = (
+{
+layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
+shapes = (
+{
+alignment = -1;
+pos = (293,-345);
+ref = twosuperior;
+},
+{
+alignment = -1;
+pos = (30,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (12,0);
+ref = onesuperior;
+}
+);
+width = 550;
+},
+{
+layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
+shapes = (
+{
+alignment = -1;
+pos = (437,-355);
+ref = twosuperior;
+},
+{
+alignment = -1;
+pos = (86,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (10,0);
+ref = onesuperior;
+}
+);
+width = 730;
+}
+);
+unicode = 189;
+},
+{
+glyphname = onequarter;
+lastChange = "2021-12-28 16:09:51 +0000";
+layers = (
+{
+layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
+shapes = (
+{
+ref = onesuperior;
+},
+{
+alignment = -1;
+pos = (65,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (278,-340);
+ref = foursuperior;
+}
+);
+width = 573;
+},
+{
+layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
+shapes = (
+{
+alignment = -1;
+pos = (10,0);
+ref = onesuperior;
+},
+{
+alignment = -1;
+pos = (96,0);
+ref = fraction;
+},
+{
+pos = (428,-340);
+ref = foursuperior;
+}
+);
+width = 747;
+}
+);
+unicode = 188;
+},
+{
+glyphname = threequarters;
+lastChange = "2021-12-27 21:26:17 +0000";
+layers = (
+{
+layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
+shapes = (
+{
+alignment = -1;
+ref = threesuperior;
+},
+{
+alignment = -1;
+pos = (123,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (319,-340);
+ref = foursuperior;
+}
+);
+width = 614;
+},
+{
+layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
+shapes = (
+{
+ref = threesuperior;
+},
+{
+alignment = -1;
+pos = (96,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (428,-340);
+ref = foursuperior;
+}
+);
+width = 747;
+}
+);
+unicode = 190;
+},
+{
 glyphname = onesuperior;
 lastChange = "2021-12-27 21:16:58 +0000";
 layers = (
@@ -14147,198 +14386,6 @@ metricRight = four;
 unicode = 8308;
 },
 {
-glyphname = fraction;
-lastChange = "2021-12-27 21:21:55 +0000";
-layers = (
-{
-layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
-shapes = (
-{
-closed = 1;
-nodes = (
-(31,0,l),
-(396,680,l),
-(366,680,l),
-(0,0,l)
-);
-}
-);
-width = 396;
-},
-{
-layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
-shapes = (
-{
-closed = 1;
-nodes = (
-(177,0,l),
-(542,680,l),
-(366,680,l),
-(0,0,l)
-);
-}
-);
-width = 542;
-}
-);
-unicode = 8260;
-},
-{
-glyphname = onehalf;
-lastChange = "2021-12-28 16:09:44 +0000";
-layers = (
-{
-layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
-shapes = (
-{
-alignment = -1;
-pos = (293,-345);
-ref = twosuperior;
-},
-{
-alignment = -1;
-pos = (30,0);
-ref = fraction;
-},
-{
-alignment = -1;
-pos = (12,0);
-ref = onesuperior;
-}
-);
-width = 550;
-},
-{
-layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
-shapes = (
-{
-alignment = -1;
-pos = (437,-355);
-ref = twosuperior;
-},
-{
-alignment = -1;
-pos = (86,0);
-ref = fraction;
-},
-{
-alignment = -1;
-pos = (10,0);
-ref = onesuperior;
-}
-);
-width = 730;
-}
-);
-unicode = 189;
-},
-{
-glyphname = onequarter;
-lastChange = "2021-12-28 16:09:51 +0000";
-layers = (
-{
-layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
-shapes = (
-{
-ref = onesuperior;
-},
-{
-alignment = -1;
-pos = (65,0);
-ref = fraction;
-},
-{
-alignment = -1;
-pos = (278,-340);
-ref = foursuperior;
-}
-);
-width = 573;
-},
-{
-layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
-shapes = (
-{
-alignment = -1;
-pos = (10,0);
-ref = onesuperior;
-},
-{
-alignment = -1;
-pos = (96,0);
-ref = fraction;
-},
-{
-pos = (428,-340);
-ref = foursuperior;
-}
-);
-width = 747;
-}
-);
-unicode = 188;
-},
-{
-glyphname = threequarters;
-lastChange = "2021-12-27 21:26:17 +0000";
-layers = (
-{
-layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
-shapes = (
-{
-alignment = -1;
-ref = threesuperior;
-},
-{
-alignment = -1;
-pos = (123,0);
-ref = fraction;
-},
-{
-alignment = -1;
-pos = (319,-340);
-ref = foursuperior;
-}
-);
-width = 614;
-},
-{
-layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
-shapes = (
-{
-ref = threesuperior;
-},
-{
-alignment = -1;
-pos = (96,0);
-ref = fraction;
-},
-{
-alignment = -1;
-pos = (428,-340);
-ref = foursuperior;
-}
-);
-width = 747;
-}
-);
-unicode = 190;
-},
-{
-glyphname = CR;
-layers = (
-{
-layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
-width = 600;
-},
-{
-layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
-width = 600;
-}
-);
-unicode = 13;
-},
-{
 glyphname = NULL;
 layers = (
 {
@@ -14350,39 +14397,6 @@ layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
 width = 600;
 }
 );
-},
-{
-glyphname = space;
-lastChange = "2021-10-06 21:26:08 +0000";
-layers = (
-{
-layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
-width = 320;
-},
-{
-layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
-width = 300;
-}
-);
-note = space;
-unicode = 32;
-},
-{
-glyphname = nbspace;
-lastChange = "2021-11-02 11:47:16 +0000";
-layers = (
-{
-layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
-width = 320;
-},
-{
-layerId = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
-width = 300;
-}
-);
-metricLeft = space;
-metricRight = space;
-unicode = 160;
 },
 {
 glyphname = period;
@@ -21786,7 +21800,7 @@ key = copyrights;
 values = (
 {
 language = ENG;
-value = "Copyright 2021 Moran Ein-Dor & Idan Shadi (https://github.com/IdanS01/Helius-Font/)";
+value = "Copyright 2021 The Helius Project Authors (https://github.com/IdanS01/Helius-Font/)";
 }
 );
 },
@@ -21795,7 +21809,7 @@ key = designers;
 values = (
 {
 language = ENG;
-value = "Moran Ein-Dor & Idan Shadi";
+value = "Moran Ein-Dor, Idan Shadi";
 }
 );
 },
@@ -21804,14 +21818,24 @@ key = trademarks;
 values = (
 {
 language = ENG;
-value = "Helium is a trademark of Moran Ein-Dor & Idan Shadi";
+value = "";
 }
 );
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
-settings = {
-disablesNiceNames = 1;
-};
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+}
+);
 unitsPerEm = 1000;
 versionMajor = 2;
 versionMinor = 0;
