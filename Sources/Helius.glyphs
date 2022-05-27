@@ -1,5 +1,8 @@
 {
-.appVersion = "3129";
+.appVersion = "1352";
+DisplayStrings = (
+noHOt
+);
 copyright = "Copyright 2021 The Helius Project Authors (https://github.com/IdanS01/Helius-Font/)";
 customParameters = (
 {
@@ -85,12 +88,18 @@ alignmentZones = (
 );
 ascender = 782;
 capHeight = 680;
-custom = Extra;
 descender = -218;
+horizontalStems = (
+28,
+26
+);
 id = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
-name = ExtraLight;
+verticalStems = (
+28,
+32
+);
 weight = Light;
-weightValue = 200;
+weightValue = 300;
 xHeight = 518;
 },
 {
@@ -102,7 +111,15 @@ alignmentZones = (
 ascender = 782;
 capHeight = 680;
 descender = -218;
+horizontalStems = (
+140,
+160
+);
 id = "88F21F75-214F-41EE-AE9C-B4AA79D6697C";
+verticalStems = (
+160,
+180
+);
 weight = Bold;
 weightValue = 700;
 xHeight = 518;
@@ -2411,7 +2428,7 @@ unicode = 00D1;
 },
 {
 glyphname = O;
-lastChange = "2021-10-22 16:05:10 +0000";
+lastChange = "2022-05-27 00:04:22 +0000";
 layers = (
 {
 anchors = (
@@ -2578,11 +2595,11 @@ nodes = (
 "200 457 OFFCURVE",
 "257 528 OFFCURVE",
 "362 528 CURVE SMOOTH",
-"467 528 OFFCURVE",
-"524 457 OFFCURVE",
-"524 340 CURVE SMOOTH",
-"524 222 OFFCURVE",
-"467 155 OFFCURVE",
+"468 528 OFFCURVE",
+"525 457 OFFCURVE",
+"525 340 CURVE SMOOTH",
+"525 222 OFFCURVE",
+"468 155 OFFCURVE",
 "362 155 CURVE SMOOTH"
 );
 }
@@ -15297,8 +15314,8 @@ width = 817;
 unicode = 2014;
 },
 {
-glyphname = ltr95;
-lastChange = "2021-10-06 15:00:21 +0000";
+glyphname = underscore;
+lastChange = "2022-05-26 23:38:48 +0000";
 layers = (
 {
 hints = (
@@ -19490,8 +19507,8 @@ width = 450;
 unicode = 00AC;
 },
 {
-glyphname = ltr94;
-lastChange = "2021-10-06 15:00:21 +0000";
+glyphname = asciicircum;
+lastChange = "2022-05-26 23:38:48 +0000";
 layers = (
 {
 hints = (
@@ -21052,26 +21069,26 @@ unicode = 00B8;
 );
 instances = (
 {
-interpolationWeight = 200;
+interpolationWeight = 300;
 instanceInterpolations = {
 "0A901A10-6B10-40AA-AC10-6ECA400C9626" = 1;
 };
-name = ExtraLight;
-weightClass = ExtraLight;
+name = Light;
+weightClass = Light;
 },
 {
 interpolationWeight = 400;
 instanceInterpolations = {
-"0A901A10-6B10-40AA-AC10-6ECA400C9626" = 0.6;
-"88F21F75-214F-41EE-AE9C-B4AA79D6697C" = 0.4;
+"0A901A10-6B10-40AA-AC10-6ECA400C9626" = 0.75;
+"88F21F75-214F-41EE-AE9C-B4AA79D6697C" = 0.25;
 };
 name = Regular;
 },
 {
 interpolationWeight = 500;
 instanceInterpolations = {
-"0A901A10-6B10-40AA-AC10-6ECA400C9626" = 0.4;
-"88F21F75-214F-41EE-AE9C-B4AA79D6697C" = 0.6;
+"0A901A10-6B10-40AA-AC10-6ECA400C9626" = 0.5;
+"88F21F75-214F-41EE-AE9C-B4AA79D6697C" = 0.5;
 };
 name = Medium;
 weightClass = Medium;
@@ -21079,8 +21096,8 @@ weightClass = Medium;
 {
 interpolationWeight = 600;
 instanceInterpolations = {
-"0A901A10-6B10-40AA-AC10-6ECA400C9626" = 0.2;
-"88F21F75-214F-41EE-AE9C-B4AA79D6697C" = 0.8;
+"0A901A10-6B10-40AA-AC10-6ECA400C9626" = 0.25;
+"88F21F75-214F-41EE-AE9C-B4AA79D6697C" = 0.75;
 };
 name = SemiBold;
 weightClass = SemiBold;
@@ -21104,6 +21121,31 @@ weightClass = Bold;
 }
 );
 unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"0A901A10-6B10-40AA-AC10-6ECA400C9626" = {
+HH = "26";
+HV = "28";
+OH = "28";
+OV = "32";
+nV = "28";
+nd = "28";
+oH = "28";
+oV = "30";
+tH = "26";
+};
+"88F21F75-214F-41EE-AE9C-B4AA79D6697C" = {
+HH = "140";
+HV = "160";
+OH = "160";
+OV = "180";
+nV = "160";
+nd = "160";
+oH = "156";
+oV = "158";
+};
+};
+};
 versionMajor = 2;
 versionMinor = 1;
 }
