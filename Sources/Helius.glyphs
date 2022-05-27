@@ -40,6 +40,10 @@ Name = Weight;
 Tag = wght;
 }
 );
+},
+{
+name = "Enforce Compatibility Check";
+value = 1;
 }
 );
 date = "2021-10-06 15:06:18 +0000";
@@ -48,7 +52,7 @@ familyName = Helius;
 featurePrefixes = (
 {
 automatic = 1;
-code = "languagesystem DFLT dflt;\012\012languagesystem hebr dflt;\012languagesystem hebr IWR;\012";
+code = "languagesystem DFLT dflt;\012\012languagesystem hebr dflt;\012";
 name = Languagesystems;
 }
 );
@@ -7086,8 +7090,9 @@ note = n;
 unicode = 006E;
 },
 {
+color = 0;
 glyphname = ntilde;
-lastChange = "2021-12-28 15:57:11 +0000";
+lastChange = "2022-05-27 00:59:03 +0000";
 layers = (
 {
 components = (
@@ -7431,8 +7436,9 @@ width = 584;
 unicode = 00F2;
 },
 {
+color = 0;
 glyphname = oslash;
-lastChange = "2021-10-22 22:05:59 +0000";
+lastChange = "2022-05-27 00:59:10 +0000";
 layers = (
 {
 components = (
@@ -20329,8 +20335,9 @@ width = 600;
 unicode = 030A;
 },
 {
+color = 0;
 glyphname = tildecomb;
-lastChange = "2021-12-27 17:45:03 +0000";
+lastChange = "2022-05-27 00:59:03 +0000";
 layers = (
 {
 anchors = (
@@ -20886,8 +20893,9 @@ width = 600;
 unicode = 02DA;
 },
 {
+color = 0;
 glyphname = tilde;
-lastChange = "2021-10-22 15:54:34 +0000";
+lastChange = "2022-05-27 00:59:03 +0000";
 layers = (
 {
 layerId = "0A901A10-6B10-40AA-AC10-6ECA400C9626";
